@@ -216,7 +216,7 @@ export class Parser {
 				member = member.proxy;
 			}
 
-			if(item) {
+			if(item !== null) {
 				var parent = state.item;
 
 				if(parent) {
